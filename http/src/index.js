@@ -2,7 +2,7 @@
 // import { init } from "./js/chistes-pages";
 // import { obtenerUsuarios } from "./js/http-provider";
 // import { init } from "./js/usuarios-page";
-
+import { init } from './js/archivos-pages'
 import * as CRUD from "./js/crud-provider";
 
 // init();
@@ -22,3 +22,5 @@ CRUD.actualizarUsuario(1 , {
 }).then( console.log );
 
 CRUD.borrarUsuario(1).then(console.log);
+
+init();
